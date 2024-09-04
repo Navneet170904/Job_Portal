@@ -17,7 +17,8 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'*'
+    origin:'https://jobquest-frontend-cijl.onrender.com',
+    credentials:true
 }
 
 app.use(cors(corsOptions));

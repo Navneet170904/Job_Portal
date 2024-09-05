@@ -37,6 +37,8 @@ const Login = () => {
                 withCredentials: true,
             });
             if (res.data.success) {
+                const token = res.data.token;
+                localStorage.setItem('token', token);
                 dispatch(setUser(res.data.user));
                 navigate("/");
                 toast.success(res.data.message);

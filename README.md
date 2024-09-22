@@ -38,7 +38,7 @@ Start the server (Make sure to create your .env file)
   npm run dev
 ```
 
-Website Layout
+## Website Demo
 
 Home Page
 ![Screenshot 2024-09-22 151355](https://github.com/user-attachments/assets/0334ac70-f6db-45ee-a921-e3bc229db6ed)
@@ -55,6 +55,4 @@ JobPage
 Profile Page
 ![Screenshot 2024-09-22 151533](https://github.com/user-attachments/assets/e6c7940e-8d52-418f-817e-96a63a87cdfc)
 
-
-RU
 

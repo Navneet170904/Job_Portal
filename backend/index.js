@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://jobquest-frontend-cijl.onrender.com',
+    origin:['http://localhost:5173', 'http://localhost:5174', 'https://jobquest-frontend-cijl.onrender.com' ],
     credentials:true
 }
 
